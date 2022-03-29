@@ -4,7 +4,7 @@ use NFNumberToWord\NumberToWords;
 function main(array $args) : array
 {
     if (!isset($args['number'])) {
-        return wrap(['error' => 'Please supply a number.']);
+        return wrap(['error' => 'Please supply a number :(']);
     }
     
     $number = (int)($args['number']);
